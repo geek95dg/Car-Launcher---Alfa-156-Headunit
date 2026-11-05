@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="200dp"
+    android:viewportWidth="120"
+    android:viewportHeight="200">
+    <!-- Top-down sports sedan silhouette for vehicle status & tire pressure telemetry -->
+    <path
+        android:fillColor="#1C212B"
+        android:strokeColor="#D31125"
+        android:strokeWidth="2"
+        android:pathData="M36,24 C44,14 76,14 84,24 L92,56 L92,152 C92,170 80,184 60,184 C40,184 28,170 28,152 L28,56 Z" />
+    <!-- Windshield & glass roof -->
+    <path
+        android:fillColor="#0B0E14"
+        android:strokeColor="#3A4354"
+        android:strokeWidth="1.5"
+        android:pathData="M36,60 L84,60 L78,90 L42,90 Z" />
+    <path
+        android:fillColor="#0B0E14"
+        android:pathData="M42,96 L78,96 L76,132 L44,132 Z" />
+    <!-- Front Trilobo V hood lines -->
+    <path
+        android:strokeColor="#D31125"
+        android:strokeWidth="2"
+        android:pathData="M44,54 L60,22 L76,54" />
+    <!-- 4 Tire indicators -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M18,44 h8 v22 h-8 z M94,44 h8 v22 h-8 z M18,136 h8 v24 h-8 z M94,136 h8 v24 h-8 z" />
+</vector>

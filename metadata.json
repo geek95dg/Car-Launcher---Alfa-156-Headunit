@@ -1,0 +1,6 @@
+{
+  "name": "Alfa Launcher",
+  "description": "Launcher samochodowy Android Automotive OS (AAOS) i Android Auto w stylu Alfa Romeo z obsługą gestów wielodotykowych, zegarami Cannocchiale, trybem DNA i personalizowanym ekranem głównym.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

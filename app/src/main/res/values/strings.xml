@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Alfa Launcher</string>
+    <string name="cockpit_subtitle">AAOS INFOTAINMENT &amp; TELEMETRY</string>
+    <string name="dna_dynamic">DYNAMIC</string>
+    <string name="dna_natural">NATURAL</string>
+    <string name="dna_advanced">ADVANCED</string>
+    <string name="mode_gps_live">GPS LIVE</string>
+    <string name="mode_demo_sim">DEMO SYMULACJA</string>
+    <string name="edit_layout_active">TRYB EDYCJI UKŁADU (PRZECIĄGNIJ LUB PRZEŁĄCZ MODUŁY)</string>
+    <string name="gesture_hint_bar">Gesty: 2 palce (Góra/Dół = Głośność, Lewo/Prawo = Utwór) • 3 palce / 2x Stuknięcie = Tryb DNA • Przytrzymaj kafelek = Edycja</string>
+    <string name="seat_heating_setting_title">Sterowanie podgrzewaniem foteli AAOS (L/P)</string>
+    <string name="seat_heating_setting_subtitle">Wyświetla 3-stopniowe przyciski podgrzewania fotela kierowcy i pasażera na pasku dokowania AAOS</string>
+    <string name="hvac_preview_setting_title">Podgląd temperatur HVAC (tylko odczyt)</string>
+    <string name="hvac_preview_setting_subtitle">Wyświetla pasywny wskaźnik temperatury L/P na dolnym pasku dokowania (domyślnie wyłączony)</string>
+    <string name="profiles_title">Profile Kierowcy i Styl Kokpitu</string>
+    <string name="widgets_config_title">Ustawienia Launchera i Moduły Ekranu Głównego</string>
+    <string name="app_drawer_title">Wszystkie Aplikacje Systemu AAOS</string>
+    <string name="search_apps_hint">Szukaj aplikacji w systemie...</string>
+</resources>

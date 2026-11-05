@@ -1,0 +1,6 @@
+{
+  "summary": "Zaktualizowany plan implementacji launchera Alfa AAOS uwzględniający pełną konfigurację AndroidManifest.xml pod bezpośrednią instalację i działanie jako natywny Car Launcher w systemie Android Automotive OS (AAOS) oraz Android Auto (wraz z deklaracją distractionOptimized, kategoriami HOME / CAR_DOCK / CAR_MODE i deskryptorem automotive_app_desc).",
+  "updatedAt": "2026-11-04T16:58:52.235792568Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

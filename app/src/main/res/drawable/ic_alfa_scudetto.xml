@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Outer metallic frame of Scudetto Trilobo grille -->
+    <path
+        android:fillColor="#D31125"
+        android:pathData="M10,10 L54,10 L32,58 Z" />
+    <path
+        android:fillColor="#0F1217"
+        android:pathData="M15,14 L49,14 L32,51 Z" />
+    <!-- Horizontal grille slats -->
+    <path
+        android:fillColor="#9AA4B2"
+        android:pathData="M18,20 L46,20 L45,22 L19,22 Z" />
+    <path
+        android:fillColor="#9AA4B2"
+        android:pathData="M21,27 L43,27 L42,29 L22,29 Z" />
+    <path
+        android:fillColor="#9AA4B2"
+        android:pathData="M24,34 L40,34 L39,36 L25,36 Z" />
+    <path
+        android:fillColor="#9AA4B2"
+        android:pathData="M27,41 L37,41 L36,43 L28,43 Z" />
+</vector>
