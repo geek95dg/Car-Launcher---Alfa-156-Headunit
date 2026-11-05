@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay>
+    <item target="color/car_nav_icon_fill_color" value="@color/car_nav_icon_fill_color" />
+    <item target="color/car_nav_icon_fill_color_selected" value="@color/car_nav_icon_fill_color_selected" />
+    <item target="color/car_primary" value="@color/car_primary" />
+    <item target="color/car_primary_container" value="@color/car_primary_container" />
+    <item target="color/car_background" value="@color/car_background" />
+    <item target="color/car_surface" value="@color/car_surface" />
+    <item target="color/car_surface_1" value="@color/car_surface_1" />
+    <item target="color/car_surface_2" value="@color/car_surface_2" />
+    <item target="color/car_surface_3" value="@color/car_surface_3" />
+    <item target="color/car_surface_4" value="@color/car_surface_4" />
+    <item target="color/car_surface_5" value="@color/car_surface_5" />
+    <item target="color/car_outline" value="@color/car_outline" />
+    <item target="color/car_red_tint" value="@color/car_red_tint" />
+    <item target="color/car_focus_ring" value="@color/car_focus_ring" />
+    <item target="color/car_icon_indicator_color" value="@color/car_icon_indicator_color" />
+    <item target="string/config_appGridComponentName" value="@string/config_appGridComponentName" />
+</overlay>

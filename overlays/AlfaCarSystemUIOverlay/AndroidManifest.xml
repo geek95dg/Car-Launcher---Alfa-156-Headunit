@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alfa156.systemui.overlay">
+
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="33" />
+
+    <overlay
+        android:targetPackage="com.android.systemui"
+        android:priority="2500"
+        android:isStatic="false"
+        android:resourcesMap="@xml/car_sysui_overlays" />
+
+    <application android:hasCode="false" />
+</manifest>

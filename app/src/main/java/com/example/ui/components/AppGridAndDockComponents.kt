@@ -99,7 +99,7 @@ fun AlfaTopStatusBar(
         tonalElevation = 6.dp,
         modifier = modifier
             .fillMaxWidth()
-            .windowInsetsPadding(WindowInsets.statusBars)
+
             .combinedClickable(
                 onClick = {},
                 onDoubleClick = onCycleDna
@@ -448,7 +448,7 @@ fun AaosDockAndHvacBar(
                 color = MaterialTheme.colorScheme.outline.copy(alpha = 0.6f),
                 shape = RoundedCornerShape(topStart = 22.dp, topEnd = 22.dp)
             )
-            .windowInsetsPadding(WindowInsets.navigationBars)
+
             .testTag("aaos_bottom_dock_bar")
     ) {
         Row(

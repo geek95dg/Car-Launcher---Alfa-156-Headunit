@@ -1,0 +1,19 @@
+//
+// Copyright (C) 2026 Alfa 156 Headunit Project
+//
+// Runtime Resource Overlay (RRO) for Android Automotive OS SystemUI
+// Integrates natively into AOSP build tree (packages/services/Car/car_product/overlay or device/x86/overlay)
+//
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+runtime_resource_overlay {
+    name: "AlfaCarSystemUIOverlay",
+    theme: "AlfaCarSystemUIOverlay",
+    product_specific: true,
+    sdk_version: "current",
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+}

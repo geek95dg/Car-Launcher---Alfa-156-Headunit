@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Redirects SystemUI App Grid click directly to our Alfa Romeo Launcher Activity -->
+    <string name="config_appGridComponentName">com.aistudio.alfalauncher.xqvz/com.example.MainActivity</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alfa Romeo 156 Ti Cockpit Palette for AAOS SystemUI -->
+    <color name="car_nav_icon_fill_color">#9CA3AF</color>
+    <color name="car_nav_icon_fill_color_selected">#D11919</color>
+
+    <color name="car_primary">#D11919</color>
+    <color name="car_primary_0">#000000</color>
+    <color name="car_primary_10">#2B0404</color>
+    <color name="car_primary_20">#4A0909</color>
+    <color name="car_primary_30">#750E0E</color>
+    <color name="car_primary_40">#A31414</color>
+    <color name="car_primary_50">#D11919</color>
+    <color name="car_primary_60">#E63939</color>
+    <color name="car_primary_70">#F06565</color>
+    <color name="car_primary_80">#F89999</color>
+    <color name="car_primary_90">#FCD0D0</color>
+    <color name="car_primary_container">#380808</color>
+    <color name="car_on_primary">#FFFFFF</color>
+    <color name="car_on_primary_container">#FFD6D6</color>
+
+    <color name="car_background">#0E1013</color>
+    <color name="car_surface">#14171C</color>
+    <color name="car_surface_1">#1A1E24</color>
+    <color name="car_surface_2">#21262E</color>
+    <color name="car_surface_3">#282F3A</color>
+    <color name="car_surface_4">#2F3744</color>
+    <color name="car_surface_5">#37404E</color>
+    <color name="car_on_surface">#E5E7EB</color>
+    <color name="car_on_surface_variant">#9CA3AF</color>
+    <color name="car_outline">#2F3542</color>
+
+    <color name="car_red_tint">#D11919</color>
+    <color name="car_focus_ring">#D11919</color>
+    <color name="car_icon_indicator_color">#D11919</color>
+</resources>

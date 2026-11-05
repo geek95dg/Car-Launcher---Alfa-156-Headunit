@@ -87,6 +87,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        hideSystemUI()
         setContent {
             val context = LocalContext.current
             val launcherViewModel: LauncherViewModel = viewModel(
@@ -94,6 +95,19 @@ class MainActivity : ComponentActivity() {
             )
             AlfaLauncherApp(viewModel = launcherViewModel)
         }
+    }
+
+    override fun onWindowFocusChanged(hasFocus: Boolean) {
+        super.onWindowFocusChanged(hasFocus)
+        if (hasFocus) hideSystemUI()
+    }
+
+    private fun hideSystemUI() {
+        val controller = androidx.core.view.WindowCompat.getInsetsController(window, window.decorView)
+        controller.hide(androidx.core.view.WindowInsetsCompat.Type.systemBars())
+        controller.systemBarsBehavior =
+            androidx.core.view.WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+        androidx.core.view.WindowCompat.setDecorFitsSystemWindows(window, false)
     }
 }
 
@@ -148,7 +162,7 @@ fun AlfaLauncherApp(viewModel: LauncherViewModel) {
 
     val orderedWidgets = widgetConfigs.sortedBy { it.sortOrder }
     val dockConfig = orderedWidgets.find { it.widgetType == CockpitWidgetType.DOCK_BAR }
-    val isDockVisible = dockConfig?.isEnabled ?: true
+    val isDockVisible = dockConfig?.isEnabled ?: false
     val mainWidgets = orderedWidgets.filter {
         it.widgetType != CockpitWidgetType.DOCK_BAR && it.isEnabled
     }

@@ -85,7 +85,7 @@ class LauncherRepository(
             WidgetConfigEntity(
                 profileId = profileId,
                 widgetTypeName = type.name,
-                isEnabled = true,
+                isEnabled = type != CockpitWidgetType.DOCK_BAR,
                 sortOrder = index,
                 isWideSpan = type.defaultWide
             )
